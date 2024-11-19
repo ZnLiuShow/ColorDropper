@@ -94,7 +94,7 @@ int main(int argc, char** argv)
     imageRect = Rect(0, 0, img.cols, img.rows);
 
     // 创建窗口
-    namedWindow("Image", WINDOW_NORMAL);
+    namedWindow("Image", WINDOW_AUTOSIZE);
     //namedWindow("Enlarged Region", WINDOW_NORMAL);
 
     // 设置鼠标回调
